@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input {
+  padding: 8px;
+  flex: 1;
+}
+
+button, select {
+  padding: 8px;
+}
+
+#services {
+  list-style: none;
+  padding: 0;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.desc {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.operational { border: 2px solid #2e7d32; }
+.degraded    { border: 2px solid #f9a825; }
+.down        { border: 2px solid #c62828; }
+
+.right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

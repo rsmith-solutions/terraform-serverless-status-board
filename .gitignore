@@ -1,0 +1,15 @@
+# Terraform
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+
+# Node
+app/lambda/node_modules/
+app/lambda/function.zip
+
+# Generated frontend
+app/site/app.generated.js
+
+# OS
+.DS_Store
