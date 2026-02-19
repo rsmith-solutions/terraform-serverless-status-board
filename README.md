@@ -60,9 +60,9 @@ Prereqs:
 
 Deploy infrastructure:
 
-```cd infra
-terraform init
-terraform apply```
+```cd infra```
+```terraform init```
+```terraform apply```
 
 Upload frontend files:
 
@@ -90,8 +90,8 @@ This project is designed to stay within AWS Free Tier for typical portfolio/demo
 
 Always tear down resources when finished:
 
-```cd infra
-terraform destroy```
+```cd infra```
+```terraform destroy```
 
 ## Future Improvements
 
