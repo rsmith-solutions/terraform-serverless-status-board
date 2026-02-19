@@ -1,5 +1,13 @@
 # Status Board (Serverless, Terraform)
 
+## Architecture
+
+![Architecture](docs/architecture.png)
+
+## Application UI
+
+![UI](docs/ui.png)
+
 A simple status board web app deployed on AWS using Terraform. The frontend is a static site hosted on S3. The backend is an HTTP API (API Gateway v2) backed by Lambda and DynamoDB.
 
 Live site: http://status-board-site-791044589800.s3-website-us-east-1.amazonaws.com
