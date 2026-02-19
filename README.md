@@ -67,8 +67,19 @@ terraform apply
 Upload frontend files:
 
 cd ../app/site
-# (API url is injected into app.js during setup)
-# upload to the bucket created by Terraform
+
+## Frontend Deployment
+
+The frontend is a static site hosted in S3.
+
+The API base URL is injected into `app.js` during deployment using the included script:
+
+./deploy-frontend.sh
+
+This script:
+- Retrieves the API URL from Terraform output
+- Injects it into the frontend code
+- Uploads the site files to the S3 bucket provisioned by Terraform
 
 ## Cost Notes (Free Tier–friendly)
 
